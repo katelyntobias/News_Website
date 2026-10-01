@@ -1,0 +1,1905 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Archers Network</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js" defer></script>
+
+</head>
+
+
+<body>
+
+
+    <div class="custom-cursor"></div>
+    
+    <!-- =========================
+         HEADER
+    ========================== -->
+
+    <header>
+
+        <a
+            href="index.html"
+            class="arch-logo"
+            aria-label="Archers Network"
+        >
+            <span>ARCH</span>
+        </a>
+
+
+        <nav>
+
+            <a href="#home">Home</a>
+            <a href="#news">News</a>
+            <a href="#sports">Sports</a>
+            <a href="#culture">Culture</a>
+            <a href="#entertainment">Entertainment</a>
+            <a href="#videos">Videos</a>
+            <a href="#photos">Photos</a>
+
+        </nav>
+
+
+        <div class="header-actions">
+
+            <div>
+
+                <button
+                    class="header-search-trigger"
+                    id="openSearch"
+                    type="button"
+                >
+                    Search
+                </button>
+
+                <a href="#signin">
+                    Sign In
+                </a>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- =========================
+         SEARCH OVERLAY
+    ========================== -->
+
+    <div
+        class="search-overlay"
+        id="searchOverlay"
+    >
+
+        <div class="search-overlay-content">
+
+            <button
+                class="search-close"
+                id="closeSearch"
+                type="button"
+                aria-label="Close search"
+            >
+                ×
+            </button>
+
+
+            <p class="search-label">
+                SEARCH ARCHERS NETWORK
+            </p>
+
+
+            <form class="search-form">
+
+                <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="What are you looking for?"
+                    autocomplete="off"
+                >
+
+                <button type="submit">
+                    Search
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =========================
+         MAIN CONTENT
+    ========================== -->
+
+    <main>
+
+
+        <!-- =========================
+             HOME
+        ========================== -->
+
+        <section id="home">
+
+
+            <!-- =========================
+                 HOME EDITORIAL MASTHEAD
+            ========================== -->
+
+            <div class="home-masthead">
+
+                <div class="home-masthead-image"></div>
+
+
+                <div class="home-masthead-content">
+
+                    <p class="home-masthead-kicker">
+                        ARCHERS NETWORK · STUDENT MEDIA
+                    </p>
+
+                    <h1>
+                        HOME
+                    </h1>
+
+                    <p class="home-masthead-tagline">
+                        STORIES FROM CAMPUS AND BEYOND.
+                    </p>
+
+                </div>
+
+
+                <div class="home-masthead-note">
+
+                    <span>CAMPUS.</span>
+                    <span>COMMUNITY.</span>
+                    <span>CULTURE.</span>
+                    <span>YOUR STORIES.</span>
+
+                </div>
+
+            </div>
+
+
+            <!-- =========================
+                 HOME CONTENT
+            ========================== -->
+
+            <div class="home-layout">
+
+
+                <!-- =========================
+                     MAIN FEATURED STORY
+                ========================== -->
+
+                <article class="main-story">
+
+                    <a href="article.html">
+
+                        <img
+                            src="<photo>"
+                            alt="Filipino seafarers"
+                        >
+
+                        <div class="story-info">
+
+                            <p class="category">
+                                FEATURE
+                            </p>
+
+                            <h2>
+                                Stories From Campus and Beyond
+                            </h2>
+
+                            <p class="description">
+                                This is sample article content for the Archers Network website prototype.
+                            </p>
+
+                            <p
+                                class="date"
+                                data-article-date="sample"
+                            ></p>
+
+                        </div>
+
+                    </a>
+
+                </article>
+
+
+                <!-- =========================
+                     SECONDARY STORIES
+                ========================== -->
+
+                <div class="side-stories">
+
+                    <article>
+
+                        <a href="article.html">
+
+                            <img
+                                src="<photo>"
+                                alt="Asian Games"
+                            >
+
+                            <div class="story-info">
+
+                                <p class="category">
+                                    FEATURE
+                                </p>
+
+                                <h3>
+                                    Stories From Campus and Beyond
+                                </h3>
+
+                                <p
+                                    class="date"
+                                    data-article-date="sample"
+                                ></p>
+
+                            </div>
+
+                        </a>
+
+                    </article>
+
+
+                    <article>
+
+                        <a href="article.html">
+
+                            <img
+                                src="<photo>"
+                                alt="Lepa boat in Tawi-Tawi"
+                            >
+
+                            <div class="story-info">
+
+                                <p class="category">
+                                    FEATURE
+                                </p>
+
+                                <h3>
+                                    Stories From Campus and Beyond
+                                </h3>
+
+                                <p
+                                    class="date"
+                                    data-article-date="sample"
+                                ></p>
+
+                            </div>
+
+                        </a>
+
+                    </article>
+
+                </div>
+
+
+                <!-- =========================
+                     RIGHT SIDEBAR
+                ========================== -->
+
+                <aside>
+
+
+                    <!-- About -->
+
+                    <div class="about-arch">
+
+                        <h2>
+                            About Archers Network
+                        </h2>
+
+                        <p>
+                            A student media platform for stories,
+                            news, videos, and events.
+                        </p>
+
+                        <a href="#about">
+                            Learn More →
+                        </a>
+
+                    </div>
+
+
+                    <!-- Calendar -->
+
+                    <div class="calendar">
+
+                        <h2>
+                            September 2026
+                        </h2>
+
+                        <table>
+
+                            <thead>
+
+                                <tr>
+                                    <th>Sun</th>
+                                    <th>Mon</th>
+                                    <th>Tue</th>
+                                    <th>Wed</th>
+                                    <th>Thu</th>
+                                    <th>Fri</th>
+                                    <th>Sat</th>
+                                </tr>
+
+                            </thead>
+
+
+                            <tbody>
+
+                                <tr>
+
+                                    <td></td>
+                                    <td></td>
+
+                                    <td>
+                                        <a href="#events">1</a>
+                                    </td>
+
+                                    <td>
+                                        <a href="#events">2</a>
+                                    </td>
+
+                                    <td>
+                                        <a href="#events">3</a>
+                                    </td>
+
+                                    <td>
+                                        <a href="#events">4</a>
+                                    </td>
+
+                                    <td>
+                                        <a href="#events">5</a>
+                                    </td>
+
+                                </tr>
+
+
+                                <tr>
+
+                                    <td>
+                                        <a href="#events">6</a>
+                                    </td>
+
+                                    <td>
+                                        <a href="#events">7</a>
+                                    </td>
+
+                                    <td>
+                                        <a href="#events">8</a>
+                                    </td>
+
+                                    <td>
+                                        <a href="#events">9</a>
+                                    </td>
+
+                                    <td>
+                                        <a href="#events">10</a>
+                                    </td>
+
+                                    <td>
+                                        <a href="#events">11</a>
+                                    </td>
+
+                                    <td>
+                                        <a href="#events">12</a>
+                                    </td>
+
+                                </tr>
+
+
+                                <tr>
+
+                                    <td>
+                                        <a href="#events">13</a>
+                                    </td>
+
+                                    <td>
+                                        <a href="#events">14</a>
+                                    </td>
+
+                                    <td>
+                                        <a href="#events">15</a>
+                                    </td>
+
+                                    <td>
+                                        <a href="#events">16</a>
+                                    </td>
+
+                                    <td>
+                                        <a href="#events">17</a>
+                                    </td>
+
+                                    <td>
+                                        <a href="#events">18</a>
+                                    </td>
+
+                                    <td>
+                                        <a href="#events">19</a>
+                                    </td>
+
+                                </tr>
+
+
+                                <tr>
+
+                                    <td>
+                                        <a href="#events">20</a>
+                                    </td>
+
+                                    <td>
+                                        <a href="#events">21</a>
+                                    </td>
+
+                                    <td>
+                                        <a href="#events">22</a>
+                                    </td>
+
+                                    <td>
+                                        <a href="#events">23</a>
+                                    </td>
+
+                                    <td>
+                                        <a href="#events">24</a>
+                                    </td>
+
+                                    <td>
+                                        <a href="#events">25</a>
+                                    </td>
+
+                                    <td>
+                                        <a href="#events">26</a>
+                                    </td>
+
+                                </tr>
+
+
+                                <tr>
+
+                                    <td>
+                                        <a href="#events">27</a>
+                                    </td>
+
+                                    <td>
+                                        <a href="#events">28</a>
+                                    </td>
+
+                                    <td>
+                                        <a href="#events">29</a>
+                                    </td>
+
+                                    <td>
+                                        <a href="#events">30</a>
+                                    </td>
+
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+
+                                </tr>
+
+                            </tbody>
+
+                        </table>
+
+                    </div>
+
+                </aside>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             NEWS
+        ========================== -->
+
+<section id="news">
+
+    <div class="section-heading">
+        <h2>Latest News</h2>
+        <a href="#news">See More →</a>
+    </div>
+
+    <div class="news-layout">
+
+        <!-- FEATURED NEWS -->
+
+        <article class="main-news">
+            <a href="article.html">
+
+                <img
+                    src="<photo>"
+                    alt="Latest news feature"
+                >
+
+                <div class="story-info">
+                    <p class="category">NEWS</p>
+
+                    <h3>
+                        Stories From Campus and Beyond
+                    </h3>
+
+                    <p class="description">
+                        This is sample article content for the Archers Network website prototype.
+                    </p>
+                </div>
+
+            </a>
+        </article>
+
+
+        <!-- SECONDARY NEWS -->
+
+        <div class="news-list">
+
+            <article>
+                <a href="article.html">
+
+                    <img
+                        src="<photo>"
+                        alt="Campus news"
+                    >
+
+                    <div>
+                        <p class="category">NEWS</p>
+
+                        <h3>
+                            Stories From Campus and Beyond
+                        </h3>
+
+                        <p class="description">
+                            This is sample article content for the Archers Network website prototype.
+                        </p>
+                    </div>
+
+                </a>
+            </article>
+
+
+            <article>
+                <a href="article.html">
+
+                    <img
+                        src="<photo>"
+                        alt="Student community news"
+                    >
+
+                    <div>
+                        <p class="category">NEWS</p>
+
+                        <h3>
+                            Stories From Campus and Beyond
+                        </h3>
+
+                        <p class="description">
+                            This is sample article content for the Archers Network website prototype.
+                        </p>
+                    </div>
+
+                </a>
+            </article>
+
+
+            <article>
+                <a href="article.html">
+
+                    <img
+                        src="<photo>"
+                        alt="University news"
+                    >
+
+                    <div>
+                        <p class="category">NEWS</p>
+
+                        <h3>
+                            Stories From Campus and Beyond
+                        </h3>
+
+                        <p class="description">
+                            This is sample article content for the Archers Network website prototype.
+                        </p>
+                    </div>
+
+                </a>
+            </article>
+
+
+            <article>
+                <a href="article.html">
+
+                    <img
+                        src="<photo>"
+                        alt="Lasallian community"
+                    >
+
+                    <div>
+                        <p class="category">NEWS</p>
+
+                        <h3>
+                            Stories From Campus and Beyond
+                        </h3>
+
+                        <p class="description">
+                            This is sample article content for the Archers Network website prototype.
+                        </p>
+                    </div>
+
+                </a>
+            </article>
+
+
+            <article>
+                <a href="article.html">
+
+                    <img
+                        src="<photo>"
+                        alt="Campus events"
+                    >
+
+                    <div>
+                        <p class="category">NEWS</p>
+
+                        <h3>
+                            Stories From Campus and Beyond
+                        </h3>
+
+                        <p class="description">
+                            This is sample article content for the Archers Network website prototype.
+                        </p>
+                    </div>
+
+                </a>
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+        <!-- =========================
+             SPORTS
+        ========================== -->
+
+        <section id="sports">
+
+            <div class="section-heading">
+
+                <h2>
+                    Sports
+                </h2>
+
+                <a href="#sports">
+                    See More →
+                </a>
+
+            </div>
+
+
+            <div class="sports-layout">
+
+
+                <!-- =========================
+                     FEATURED STORY
+                ========================== -->
+
+                <div class="sports-main">
+
+                    <article class="sports-featured">
+
+                        <a href="article.html">
+
+                            <div class="sports-featured-image">
+
+                                <span class="sports-featured-label">
+                                    FEATURED
+                                </span>
+
+                                <img
+                                    src="<photo>"
+                                    alt="Asian Games"
+                                >
+
+                            </div>
+
+
+                            <div class="sports-featured-info">
+
+                                <p class="category">
+                                    FEATURE
+                                </p>
+
+                                <h3>
+                                    Stories From Campus and Beyond
+                                </h3>
+
+                                <p class="sports-description">
+                                    This is sample article content for the Archers Network website prototype.
+                                </p>
+
+                                <p
+                                    class="date"
+                                    data-article-date="sample"
+                                ></p>
+
+                            </div>
+
+                        </a>
+
+                    </article>
+
+
+                    <!-- =========================
+                         SECONDARY STORIES
+                    ========================== -->
+
+                    <div class="sports-secondary">
+
+                        <article>
+
+                            <a href="article.html">
+
+                                <img
+                                    src="<photo>"
+                                    alt="Stephen Curry"
+                                >
+
+                                <div>
+
+                                    <p class="category">
+                                        FEATURE
+                                    </p>
+
+                                    <h3>
+                                        Stories From Campus and Beyond
+                                    </h3>
+
+                                    <p
+                                        class="date"
+                                        data-article-date="sample"
+                                    ></p>
+
+                                </div>
+
+                            </a>
+
+                        </article>
+
+
+                        <article>
+
+                            <a href="article.html">
+
+                                <img
+                                    src="<photo>"
+                                    alt="Football"
+                                >
+
+                                <div>
+
+                                    <p class="category">
+                                        FEATURE
+                                    </p>
+
+                                    <h3>
+                                        Stories From Campus and Beyond
+                                    </h3>
+
+                                    <p
+                                        class="date"
+                                        data-article-date="sample"
+                                    ></p>
+
+                                </div>
+
+                            </a>
+
+                        </article>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =========================
+                     QUOTE
+                ========================== -->
+
+                <aside class="sports-quote-card">
+
+                    <div class="sports-quote-mark">
+                        “
+                    </div>
+
+                    <p class="sports-quote-label">
+                        THE SPORTS DESK
+                    </p>
+
+                    <blockquote>
+                        Sports have the power
+                        to unite people in a way
+                        that little else does.
+                    </blockquote>
+
+                    <div class="sports-quote-line"></div>
+
+                    <p class="sports-quote-author">
+                        — BILLIE JEAN KING
+                    </p>
+
+                    <p class="sports-quote-note">
+                        More than the score, sports are about the
+                        people, communities, and stories behind
+                        every game.
+                    </p>
+
+                </aside>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             CULTURE
+        ========================== -->
+
+        <section id="culture">
+
+            <div class="section-heading">
+
+                <h2>
+                    Culture
+                </h2>
+
+                <a href="#culture">
+                    See More →
+                </a>
+
+            </div>
+
+
+            <div class="content-layout">
+
+
+                <article class="main-content-story">
+
+                    <a href="article.html">
+
+                        <img
+                            src="<photo>"
+                            alt="Lepa boat in Tawi-Tawi"
+                        >
+
+                        <p class="category">
+                            FEATURE
+                        </p>
+
+                        <h3>
+                            Stories From Campus and Beyond
+                        </h3>
+
+                        <p
+                            class="date"
+                            data-article-date="sample"
+                        ></p>
+
+                    </a>
+
+                </article>
+
+
+                <div class="secondary-content">
+
+                    <article>
+
+                        <a href="article.html">
+
+                            <img
+                                src="<photo>"
+                                alt="Turumba in Laguna"
+                            >
+
+                            <p class="category">
+                                FEATURE
+                            </p>
+
+                            <h3>
+                                Stories From Campus and Beyond
+                            </h3>
+
+                            <p
+                                class="date"
+                                data-article-date="sample"
+                            ></p>
+
+                        </a>
+
+                    </article>
+
+
+                    <article>
+
+                        <a href="article.html">
+
+                            <img
+                                src="<photo>"
+                                alt="Filipino film"
+                            >
+
+                            <p class="category">
+                                FEATURE
+                            </p>
+
+                            <h3>
+                                Stories From Campus and Beyond
+                            </h3>
+
+                            <p
+                                class="date"
+                                data-article-date="sample"
+                            ></p>
+
+                        </a>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             ENTERTAINMENT
+        ========================== -->
+
+        <section id="entertainment">
+
+            <div class="section-heading">
+
+                <h2>
+                    Entertainment
+                </h2>
+
+                <a href="#entertainment">
+                    See More →
+                </a>
+
+            </div>
+
+
+            <div class="entertainment-layout">
+
+
+                <article>
+
+                    <a href="article.html">
+
+                        <img
+                            src="<photo>"
+                            alt="Filipino film"
+                        >
+
+                        <p class="category">
+                            FEATURE
+                        </p>
+
+                        <h3>
+                            Stories From Campus and Beyond
+                        </h3>
+
+                        <p
+                            class="date"
+                            data-article-date="sample"
+                        ></p>
+
+                    </a>
+
+                </article>
+
+
+                <article>
+
+                    <a href="article.html">
+
+                        <img
+                            src="<photo>"
+                            alt="Filipino journalists"
+                        >
+
+                        <p class="category">
+                            FEATURE
+                        </p>
+
+                        <h3>
+                            Stories From Campus and Beyond
+                        </h3>
+
+                        <p
+                            class="date"
+                            data-article-date="sample"
+                        ></p>
+
+                    </a>
+
+                </article>
+
+
+                <article>
+
+                    <a href="article.html">
+
+                        <img
+                            src="<photo>"
+                            alt="Tawi-Tawi culture"
+                        >
+
+                        <p class="category">
+                            FEATURE
+                        </p>
+
+                        <h3>
+                            Stories From Campus and Beyond
+                        </h3>
+
+                        <p
+                            class="date"
+                            data-article-date="sample"
+                        ></p>
+
+                    </a>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+            VIDEOS
+        ========================== -->
+
+        <section id="videos">
+
+            <div class="section-heading">
+
+                <h2>
+                    Latest Videos
+                </h2>
+
+                <a href="#videos">
+                    See More →
+                </a>
+
+            </div>
+
+
+            <div class="video-carousel">
+
+
+                <!-- PREVIOUS BUTTON -->
+
+                <button
+                    class="carousel-button previous"
+                    type="button"
+                    aria-label="Previous videos"
+                >
+                    ←
+                </button>
+
+
+                <!-- VIDEO WINDOW -->
+
+                <div class="video-window">
+
+                    <div class="video-track">
+
+
+                        <!-- VIDEO 1 -->
+
+                        <article
+                            class="video-card"
+                            data-video="videos/video1.mp4"
+                        >
+
+                            <button
+                                class="video-open"
+                                type="button"
+                            >
+
+                                <img
+                                    src="<photo>"
+                                    alt="Latest news video"
+                                >
+
+                                <span class="video-play">
+                                    ▶
+                                </span>
+
+                                <p class="category">
+                                    VIDEO
+                                </p>
+
+                                <h3>
+                                    Latest Videos and Updates
+                                </h3>
+
+                            </button>
+
+                        </article>
+
+
+
+                        <!-- VIDEO 2 -->
+
+                        <article
+                            class="video-card"
+                            data-video="videos/video2.mp4"
+                        >
+
+                            <button
+                                class="video-open"
+                                type="button"
+                            >
+
+                                <img
+                                    src="<photo>"
+                                    alt="News coverage"
+                                >
+
+                                <span class="video-play">
+                                    ▶
+                                </span>
+
+                                <p class="category">
+                                    VIDEO
+                                </p>
+
+                                <h3>
+                                    Latest Videos and Updates
+                                </h3>
+
+                            </button>
+
+                        </article>
+
+
+
+                        <!-- VIDEO 3 -->
+
+                        <article
+                            class="video-card"
+                            data-video="videos/video3.mp4"
+                        >
+
+                            <button
+                                class="video-open"
+                                type="button"
+                            >
+
+                                <img
+                                    src="<photo>"
+                                    alt="Feature report"
+                                >
+
+                                <span class="video-play">
+                                    ▶
+                                </span>
+
+                                <p class="category">
+                                    VIDEO
+                                </p>
+
+                                <h3>
+                                    Latest Videos and Updates
+                                </h3>
+
+                            </button>
+
+                        </article>
+
+
+
+                        <!-- VIDEO 4 -->
+
+                        <article
+                            class="video-card"
+                            data-video="videos/video4.mp4"
+                        >
+
+                            <button
+                                class="video-open"
+                                type="button"
+                            >
+
+                                <img
+                                    src="<photo>"
+                                    alt="Special report"
+                                >
+
+                                <span class="video-play">
+                                    ▶
+                                </span>
+
+                                <p class="category">
+                                    VIDEO
+                                </p>
+
+                                <h3>
+                                    Latest Videos and Updates
+                                </h3>
+
+                            </button>
+
+                        </article>
+
+
+
+                        <!-- VIDEO 5 -->
+
+                        <article
+                            class="video-card"
+                            data-video="videos/video5.mp4"
+                        >
+
+                            <button
+                                class="video-open"
+                                type="button"
+                            >
+
+                                <img
+                                    src="<photo>"
+                                    alt="Campus video"
+                                >
+
+                                <span class="video-play">
+                                    ▶
+                                </span>
+
+                                <p class="category">
+                                    VIDEO
+                                </p>
+
+                                <h3>
+                                    Latest Videos and Updates
+                                </h3>
+
+                            </button>
+
+                        </article>
+
+
+
+                        <!-- VIDEO 6 -->
+
+                        <article
+                            class="video-card"
+                            data-video="videos/video6.mp4"
+                        >
+
+                            <button
+                                class="video-open"
+                                type="button"
+                            >
+
+                                <img
+                                    src="<photo>"
+                                    alt="Student video"
+                                >
+
+                                <span class="video-play">
+                                    ▶
+                                </span>
+
+                                <p class="category">
+                                    VIDEO
+                                </p>
+
+                                <h3>
+                                    Latest Videos and Updates
+                                </h3>
+
+                            </button>
+
+                        </article>
+
+
+                    </div>
+
+                </div>
+
+
+                <!-- NEXT BUTTON -->
+
+                <button
+                    class="carousel-button next"
+                    type="button"
+                    aria-label="Next videos"
+                >
+                    →
+                </button>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+            VIDEO POPUP
+        ========================== -->
+
+        <div
+            class="video-modal"
+            id="videoModal"
+            aria-hidden="true"
+        >
+
+            <div class="video-modal-content">
+
+                <button
+                    class="video-modal-close"
+                    id="videoModalClose"
+                    type="button"
+                    aria-label="Close video"
+                >
+                    ×
+                </button>
+
+                <video
+                    id="videoPlayer"
+                    controls
+                    playsinline
+                >
+                    <source
+                        id="videoSource"
+                        src=""
+                        type="video/mp4"
+                    >
+                </video>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- =========================
+            PHOTOS
+        ========================== -->
+
+        <section id="photos">
+
+            <div class="section-heading">
+
+                <h2>
+                    Photo Stories
+                </h2>
+
+                <a href="#photos">
+                    See More →
+                </a>
+
+            </div>
+
+
+            <div class="photo-layout">
+
+
+                <!-- =========================
+                    MAIN PHOTO
+                ========================== -->
+
+                <article class="main-photo">
+
+                    <button
+                        class="photo-open"
+                        type="button"
+                        data-photo="<photo>"
+                    >
+
+                        <img
+                            src="<photo>"
+                            alt="Philippine news photography"
+                        >
+
+                        <p class="category">
+                            PHOTO STORY
+                        </p>
+
+                        <h3>
+                            Stories Through the Lens
+                        </h3>
+
+                        <p class="date">
+                            September 2026
+                        </p>
+
+                    </button>
+
+                </article>
+
+
+
+                <!-- =========================
+                    PHOTO GRID
+                ========================== -->
+
+                <div class="photo-grid">
+
+
+                    <!-- PHOTO 2 -->
+
+                    <article>
+
+                        <button
+                            class="photo-open"
+                            type="button"
+                            data-photo="<photo>"
+                        >
+
+                            <img
+                                src="<photo>"
+                                alt="News photography"
+                            >
+
+                            <h3>
+                                Stories Through the Lens
+                            </h3>
+
+                        </button>
+
+                    </article>
+
+
+
+                    <!-- PHOTO 3 -->
+
+                    <article>
+
+                        <button
+                            class="photo-open"
+                            type="button"
+                            data-photo="<photo>"
+                        >
+
+                            <img
+                                src="<photo>"
+                                alt="Sports photography"
+                            >
+
+                            <h3>
+                                Stories Through the Lens
+                            </h3>
+
+                        </button>
+
+                    </article>
+
+
+
+                    <!-- PHOTO 4 -->
+
+                    <article>
+
+                        <button
+                            class="photo-open"
+                            type="button"
+                            data-photo="<photo>"
+                        >
+
+                            <img
+                                src="<photo>"
+                                alt="Events photography"
+                            >
+
+                            <h3>
+                                Stories Through the Lens
+                            </h3>
+
+                        </button>
+
+                    </article>
+
+
+
+                    <!-- PHOTO 5 -->
+
+                    <article>
+
+                        <button
+                            class="photo-open"
+                            type="button"
+                            data-photo="<photo>"
+                        >
+
+                            <img
+                                src="<photo>"
+                                alt="Community photography"
+                            >
+
+                            <h3>
+                                Stories Through the Lens
+                            </h3>
+
+                        </button>
+
+                    </article>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+            PHOTO POPUP
+        ========================== -->
+
+        <div
+            class="photo-modal"
+            id="photoModal"
+            aria-hidden="true"
+        >
+
+            <div class="photo-modal-content">
+
+                <button
+                    class="photo-modal-close"
+                    id="photoModalClose"
+                    type="button"
+                    aria-label="Close photo"
+                >
+                    ×
+                </button>
+
+                <img
+                    id="photoViewer"
+                    src=""
+                    alt="Expanded photo"
+                >
+
+            </div>
+
+        </div>
+
+        <!-- =========================================================
+            ABOUT ARCHERS NETWORK
+        ========================================================== -->
+
+        <section id="about">
+
+            <div class="about-visual">
+
+                <div class="about-image">
+
+                    <img
+                        src="images/photo.jpg"
+                        alt="Archers Network campus coverage"
+                    >
+
+                    <span class="about-image-label">
+                        ARCHERS NETWORK
+                    </span>
+
+                </div>
+
+
+                <div class="about-content">
+
+                    <p class="about-eyebrow">
+                        EST. 202X · DE LA SALLE UNIVERSITY
+                    </p>
+
+                    <h2>
+                        Stories that
+                        <span>move</span>
+                        the community.
+                    </h2>
+
+                    <p class="about-description">
+                        Archers Network is a student-led media organization
+                        dedicated to telling the stories, capturing the moments,
+                        and amplifying the voices that shape the Lasallian community.
+                    </p>
+
+
+                    <div class="about-socials">
+
+                        <button
+                            class="about-social"
+                            type="button"
+                            data-about-modal="mission"
+                        >
+                            <span>✦</span>
+                            Our Mission
+                            <strong>↗</strong>
+                        </button>
+
+
+                        <button
+                            class="about-social"
+                            type="button"
+                            data-about-modal="team"
+                        >
+                            <span>+</span>
+                            Meet the Team
+                            <strong>↗</strong>
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================================================
+            ABOUT POPUP
+        ========================================================== -->
+
+        <div
+            class="about-modal"
+            id="aboutModal"
+            aria-hidden="true"
+        >
+
+            <div class="about-modal-content">
+
+                <button
+                    class="about-modal-close"
+                    id="aboutModalClose"
+                    type="button"
+                    aria-label="Close"
+                >
+                    ×
+                </button>
+
+
+                <!-- =================================================
+                    OUR MISSION
+                ================================================== -->
+
+                <div
+                    class="about-modal-panel"
+                    id="missionPanel"
+                >
+
+                    <p class="about-modal-eyebrow">
+                        OUR MISSION
+                    </p>
+
+                    <h2>
+                        Stories that
+                        <span>matter.</span>
+                    </h2>
+
+                    <p>
+                        Archers Network is dedicated to telling meaningful
+                        stories that reflect the experiences, achievements,
+                        and voices of the Lasallian community.
+                    </p>
+
+                    <p>
+                        Through journalism, photography, and multimedia,
+                        we aim to inform, connect, and give the community
+                        a space to be heard.
+                    </p>
+
+                </div>
+
+
+                <!-- =================================================
+                    MEET THE TEAM
+                ================================================== -->
+
+                <div
+                    class="about-modal-panel"
+                    id="teamPanel"
+                >
+
+                    <p class="about-modal-eyebrow">
+                        MEET THE TEAM
+                    </p>
+
+                    <h2>
+                        The people behind
+                        <span>the stories.</span>
+                    </h2>
+
+                    <p>
+                        Archers Network is made up of student writers,
+                        photographers, creatives, and storytellers who
+                        work together to document the Lasallian community.
+                    </p>
+
+                    <div class="team-placeholder">
+
+                        <div>
+                            <strong>EDITORIAL</strong>
+                            <span>Writers & Editors</span>
+                        </div>
+
+                        <div>
+                            <strong>CREATIVE</strong>
+                            <span>Photo & Video</span>
+                        </div>
+
+                        <div>
+                            <strong>MEDIA</strong>
+                            <span>Digital & Content</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- =========================
+             FOOTER
+        ========================== -->
+
+        <footer>
+
+            <div class="footer-main">
+
+                <!-- BRAND -->
+
+                <div class="footer-brand">
+
+                    <h2>
+                        ARCHERS
+                        <span>NETWORK</span>
+                    </h2>
+
+                </div>
+
+
+                <!-- NAVIGATION -->
+
+                <div class="footer-column">
+
+                    <h3>
+                        EXPLORE
+                    </h3>
+
+                    <nav>
+
+                        <a href="#home">Home</a>
+                        <a href="#news">News</a>
+                        <a href="#sports">Sports</a>
+                        <a href="#culture">Culture</a>
+                        <a href="#entertainment">Entertainment</a>
+                        <a href="#videos">Videos</a>
+                        <a href="#photos">Photos</a>
+
+                    </nav>
+
+                </div>
+
+
+                <!-- INFORMATION -->
+
+                <div class="footer-column">
+
+                    <h3>
+                        NETWORK
+                    </h3>
+
+                    <nav>
+
+                        <a href="#about">About</a>
+
+                        <a href="#" class="footer-search">
+                            Search
+                        </a>
+
+                        <a href="#" class="footer-signin">
+                            Sign In
+                        </a>
+
+                    </nav>
+
+                </div>
+
+
+                <!-- SOCIALS -->
+
+                <div class="footer-column footer-social">
+
+                    <h3>
+                        FOLLOW US
+                    </h3>
+
+                    <a
+                        href="https://www.facebook.com/ArchersNetwork"
+                        target="_blank"
+                        rel="noopener"
+                    >
+                        Facebook
+                        <span>↗</span>
+                    </a>
+
+                    <a
+                        href="https://www.instagram.com/archers.network/"
+                        target="_blank"
+                        rel="noopener"
+                    >
+                        Instagram
+                        <span>↗</span>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- BOTTOM BAR -->
+
+            <div class="footer-bottom">
+
+                <p>
+                    © 2026 Archers Network
+                </p>
+
+                <p>
+                    De La Salle University
+                </p>
+
+                <p>
+                    Prototype Website
+                </p>
+
+            </div>
+
+        </footer>
+
+
+    </main>
+
+
+</body>
+
+</html>

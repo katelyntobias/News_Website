@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Archers Network</title>
+
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- MAIN WEBSITE CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- ARTICLE PAGE CSS -->
+    <link rel="stylesheet" href="article.css">
+
+    <!-- MAIN JAVASCRIPT -->
+    <script src="script.js" defer></script>
+
+</head>
+
+
+<body>
+
+    <div class="custom-cursor"></div>
+
+    <!-- =====================================================
+         HEADER
+    ====================================================== -->
+
+    <header>
+
+        <a
+            href="index.html"
+            class="arch-logo"
+            aria-label="Archers Network"
+        >
+            <span>ARCH</span>
+        </a>
+
+
+        <nav>
+
+            <a href="index.html#home">
+                Home
+            </a>
+
+            <a href="index.html#news">
+                News
+            </a>
+
+            <a href="index.html#sports">
+                Sports
+            </a>
+
+            <a href="index.html#culture">
+                Culture
+            </a>
+
+            <a href="index.html#entertainment">
+                Entertainment
+            </a>
+
+            <a href="index.html#videos">
+                Videos
+            </a>
+
+            <a href="index.html#photos">
+                Photos
+            </a>
+
+        </nav>
+
+
+        <div class="header-actions">
+
+            <div>
+
+                <button
+                    class="header-search-trigger"
+                    id="openSearch"
+                    type="button"
+                >
+                    Search
+                </button>
+
+                <a href="#signin">
+                    Sign In
+                </a>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- =====================================================
+         SEARCH OVERLAY
+    ====================================================== -->
+
+    <div
+        class="search-overlay"
+        id="searchOverlay"
+    >
+
+        <div class="search-overlay-content">
+
+            <button
+                class="search-close"
+                id="closeSearch"
+                type="button"
+                aria-label="Close search"
+            >
+                ×
+            </button>
+
+
+            <p class="search-label">
+                SEARCH ARCHERS NETWORK
+            </p>
+
+
+            <form class="search-form">
+
+                <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="What are you looking for?"
+                    autocomplete="off"
+                >
+
+                <button type="submit">
+                    Search
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =====================================================
+         ARTICLE
+    ====================================================== -->
+
+    <main>
+
+        <article class="article-page">
+
+
+            <!-- =================================================
+                 ARTICLE HEADER
+            ================================================== -->
+
+            <div class="article-header">
+
+
+                <!-- CATEGORY -->
+
+                <p
+                    class="article-category"
+                    id="article-category"
+                >
+                    CAMPUS LIFE
+                </p>
+
+
+                <!-- TITLE -->
+
+                <h1 id="article-title">
+                    Stories From Campus and Beyond
+                </h1>
+
+
+                <!-- META -->
+
+                <div class="article-meta">
+
+
+                    <div class="article-meta-item">
+
+                        <span class="article-meta-label">
+                            WRITTEN BY
+                        </span>
+
+                        <span
+                            class="article-meta-value"
+                            id="article-author"
+                        >
+                            Katelyn Tobias
+                        </span>
+
+                    </div>
+
+
+                    <div class="article-meta-item">
+
+                        <span class="article-meta-label">
+                            PUBLISHED
+                        </span>
+
+                        <span
+                            class="article-meta-value"
+                            id="article-date"
+                        >
+                            September 28, 2026
+                        </span>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+
+            <!-- =================================================
+                 HERO IMAGE
+            ================================================== -->
+
+            <figure class="article-figure">
+
+
+                <div class="article-image-wrap">
+
+                    <img
+                        id="article-image"
+                        src=""
+                        alt="Article image"
+                    >
+
+                </div>
+
+
+                <!-- IMAGE CAPTION -->
+
+                <figcaption>
+
+                    <span class="caption-main">
+                        ARCHERS NETWORK
+                    </span>
+
+                    <span class="caption-divider">
+                        /
+                    </span>
+
+                    <span class="caption-sub">
+                        DE LA SALLE UNIVERSITY
+                    </span>
+
+                    <span class="caption-date">
+                        2026
+                    </span>
+
+                </figcaption>
+
+
+            </figure>
+
+
+
+            <!-- =================================================
+                 ARTICLE BODY
+            ================================================== -->
+
+            <div
+                class="article-content"
+                id="article-content"
+            >
+
+
+                <!-- INTRO -->
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Integer vitae justo nec augue tincidunt tincidunt.
+                    Suspendisse potenti. Praesent euismod, neque vel
+                    consectetur tincidunt, nisl lorem interdum massa,
+                    vitae malesuada neque justo non libero.
+                </p>
+
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat. Duis aute irure dolor in reprehenderit
+                    in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur.
+                </p>
+
+
+
+                <!-- SECTION 01 -->
+
+                <h2>
+                    A story shaped by the campus
+                </h2>
+
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Curabitur at lacus vel lectus consequat tincidunt.
+                    Vestibulum ante ipsum primis in faucibus orci luctus
+                    et ultrices posuere cubilia curae; Donec vitae augue
+                    vel libero malesuada tincidunt.
+                </p>
+
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Phasellus faucibus, massa at tincidunt tincidunt, ipsum
+                    lectus consequat nisl, vitae fermentum justo libero
+                    quis neque. Aliquam erat volutpat. Mauris tincidunt
+                    turpis at libero faucibus, sed tincidunt sem feugiat.
+                </p>
+
+
+
+                <!-- PULL QUOTE -->
+
+                <blockquote>
+
+                    <span class="quote-mark">
+                        “
+                    </span>
+
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua.
+
+                </blockquote>
+
+
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nulla facilisi. Donec consequat, purus sit amet
+                    ullamcorper elementum, justo lectus malesuada magna,
+                    at vestibulum arcu massa vitae nisi.
+                </p>
+
+
+
+                <!-- SECTION 02 -->
+
+                <h2>
+                    Beyond the ordinary
+                </h2>
+
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Integer faucibus sapien sit amet lacus posuere, quis
+                    tincidunt erat consequat. Nam vitae lectus euismod,
+                    ullamcorper nisl quis, aliquet libero.
+                </p>
+
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Morbi suscipit augue vitae neque vestibulum, non
+                    sollicitudin massa tincidunt. Aenean euismod, justo
+                    vitae malesuada consequat, libero turpis interdum
+                    lectus, eget tincidunt sapien lorem sed justo.
+                </p>
+
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Donec interdum, justo vel tincidunt suscipit, augue
+                    libero malesuada neque, vitae consectetur lorem
+                    mauris vitae justo.
+                </p>
+
+
+
+                <!-- SECTION 03 -->
+
+                <h2>
+                    Looking ahead
+                </h2>
+
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Vestibulum ante ipsum primis in faucibus orci luctus
+                    et ultrices posuere cubilia curae; Integer at sem
+                    consectetur, commodo augue vitae, pellentesque lorem.
+                </p>
+
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Quisque euismod, lorem sed faucibus consequat, neque
+                    libero malesuada velit, vitae malesuada justo mauris
+                    eget augue.
+                </p>
+
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Suspendisse potenti. Nam consequat, erat vel elementum
+                    luctus, lectus justo tincidunt lorem, vitae tincidunt
+                    massa nulla vitae neque.
+                </p>
+
+
+
+                <!-- CLOSING -->
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Aliquam erat volutpat. Sed vitae augue nec lorem
+                    ullamcorper volutpat. Integer vitae sem at justo
+                    malesuada tincidunt.
+                </p>
+
+
+            </div>
+
+
+
+            <!-- =================================================
+                 BACK TO HOME
+            ================================================== -->
+
+            <div class="article-back">
+
+                <a href="index.html">
+
+                    <span>
+                        ←
+                    </span>
+
+                    Back to Home
+
+                </a>
+
+            </div>
+
+
+        </article>
+
+    </main>
+
+
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
+    <footer>
+
+        <div class="footer-main">
+
+
+            <!-- BRAND -->
+
+            <div class="footer-brand">
+
+                <h2>
+                    ARCHERS
+                    <span>NETWORK</span>
+                </h2>
+
+            </div>
+
+
+
+            <!-- EXPLORE -->
+
+            <div class="footer-column">
+
+                <h3>
+                    EXPLORE
+                </h3>
+
+                <nav>
+
+                    <a href="index.html#home">
+                        Home
+                    </a>
+
+                    <a href="index.html#news">
+                        News
+                    </a>
+
+                    <a href="index.html#sports">
+                        Sports
+                    </a>
+
+                    <a href="index.html#culture">
+                        Culture
+                    </a>
+
+                    <a href="index.html#entertainment">
+                        Entertainment
+                    </a>
+
+                    <a href="index.html#videos">
+                        Videos
+                    </a>
+
+                    <a href="index.html#photos">
+                        Photos
+                    </a>
+
+                </nav>
+
+            </div>
+
+
+
+            <!-- NETWORK -->
+
+            <div class="footer-column">
+
+                <h3>
+                    NETWORK
+                </h3>
+
+                <nav>
+
+                    <a href="index.html#about">
+                        About
+                    </a>
+
+                    <a href="#" class="footer-search">
+                        Search
+                    </a>
+
+                    <a href="#" class="footer-signin">
+                        Sign In
+                    </a>
+
+                </nav>
+
+            </div>
+
+
+
+            <!-- SOCIALS -->
+
+            <div class="footer-column footer-social">
+
+                <h3>
+                    FOLLOW US
+                </h3>
+
+
+                <a
+                    href="https://www.facebook.com/ArchersNetwork"
+                    target="_blank"
+                    rel="noopener"
+                >
+                    Facebook
+                    <span>↗</span>
+                </a>
+
+
+                <a
+                    href="https://www.instagram.com/archers.network/"
+                    target="_blank"
+                    rel="noopener"
+                >
+                    Instagram
+                    <span>↗</span>
+                </a>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- FOOTER BOTTOM -->
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 Archers Network
+            </p>
+
+            <p>
+                De La Salle University
+            </p>
+
+            <p>
+                Prototype Website
+            </p>
+
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>
